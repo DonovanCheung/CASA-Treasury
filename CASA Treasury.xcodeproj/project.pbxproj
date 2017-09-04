@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B566373F5304212675AEC60 /* Pods_CASA_TreasuryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8E95E2257D43F443C5502C /* Pods_CASA_TreasuryUITests.framework */; };
+		68F9511D5DEDC77D0579A643 /* Pods_CASA_Treasury.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC5CF48381ED148D54ED666 /* Pods_CASA_Treasury.framework */; };
+		9BA7B40A3070B6E1D9C19A5B /* Pods_CASA_TreasuryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C13D704482043BDCCD7593C /* Pods_CASA_TreasuryTests.framework */; };
+		E310131A1F3BE87400F559A4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31013191F3BE87400F559A4 /* Service.swift */; };
+		E3515EDD1F4A39E9008B593B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3515EDC1F4A39E9008B593B /* SWRevealViewController.m */; };
+		E3515EDF1F4A7066008B593B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3515EDE1F4A7066008B593B /* CameraViewController.swift */; };
+		E3515EE31F4D0554008B593B /* DatePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3515EE21F4D0554008B593B /* DatePopupViewController.swift */; };
+		E3515EE71F4D115D008B593B /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3515EE61F4D115D008B593B /* CategoryPickerViewController.swift */; };
+		E3515EE91F4D1DF0008B593B /* AccountPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3515EE81F4D1DF0008B593B /* AccountPickerViewController.swift */; };
+		E36787D41F37B8FF005F5540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36787D31F37B8FF005F5540 /* AppDelegate.swift */; };
+		E36787DB1F37B8FF005F5540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36787DA1F37B8FF005F5540 /* Assets.xcassets */; };
+		E36787DE1F37B8FF005F5540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36787DC1F37B8FF005F5540 /* LaunchScreen.storyboard */; };
+		E36787E91F37B8FF005F5540 /* CASA_TreasuryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36787E81F37B8FF005F5540 /* CASA_TreasuryTests.swift */; };
+		E36787F41F37B8FF005F5540 /* CASA_TreasuryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36787F31F37B8FF005F5540 /* CASA_TreasuryUITests.swift */; };
+		E36788021F37BB49005F5540 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E36788011F37BB49005F5540 /* GoogleService-Info.plist */; };
+		E36788091F37BFFE005F5540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36788081F37BFFE005F5540 /* Main.storyboard */; };
+		E3B1E04C1F3FB7C0006312E3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E0451F3FB7C0006312E3 /* AddViewController.swift */; };
+		E3B1E04D1F3FB7C0006312E3 /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E0461F3FB7C0006312E3 /* AllViewController.swift */; };
+		E3B1E04E1F3FB7C0006312E3 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E0471F3FB7C0006312E3 /* BankViewController.swift */; };
+		E3B1E04F1F3FB7C0006312E3 /* CashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E0481F3FB7C0006312E3 /* CashViewController.swift */; };
+		E3B1E0501F3FB7C0006312E3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E0491F3FB7C0006312E3 /* MasterViewController.swift */; };
+		E3B1E0511F3FB7C0006312E3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E04A1F3FB7C0006312E3 /* TableViewCell.swift */; };
+		E3B1E0521F3FB7C0006312E3 /* VenmoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1E04B1F3FB7C0006312E3 /* VenmoViewController.swift */; };
+		E3D905BD1F4693620077D1AF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D905BC1F4693610077D1AF /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E36787E51F37B8FF005F5540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36787C81F37B8FF005F5540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36787CF1F37B8FF005F5540;
+			remoteInfo = "CASA Treasury";
+		};
+		E36787F01F37B8FF005F5540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36787C81F37B8FF005F5540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36787CF1F37B8FF005F5540;
+			remoteInfo = "CASA Treasury";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC5CF48381ED148D54ED666 /* Pods_CASA_Treasury.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASA_Treasury.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA669A18FFA2B8280AFF505 /* Pods-CASA TreasuryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASA TreasuryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CASA TreasuryTests/Pods-CASA TreasuryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C13D704482043BDCCD7593C /* Pods_CASA_TreasuryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASA_TreasuryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A7C8EEF328C5CD24A0543F /* Pods-CASA Treasury.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASA Treasury.release.xcconfig"; path = "Pods/Target Support Files/Pods-CASA Treasury/Pods-CASA Treasury.release.xcconfig"; sourceTree = "<group>"; };
+		39C513E7CD74327F9D939544 /* Pods-CASA TreasuryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASA TreasuryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CASA TreasuryUITests/Pods-CASA TreasuryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C8E95E2257D43F443C5502C /* Pods_CASA_TreasuryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASA_TreasuryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADE8E63D4F460271AC4F934 /* Pods-CASA TreasuryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASA TreasuryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CASA TreasuryUITests/Pods-CASA TreasuryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		817577EF3E85F02C1C880A92 /* Pods-CASA Treasury.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASA Treasury.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CASA Treasury/Pods-CASA Treasury.debug.xcconfig"; sourceTree = "<group>"; };
+		C94E69F6FF0D0A9D1A98EB78 /* Pods-CASA TreasuryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASA TreasuryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CASA TreasuryTests/Pods-CASA TreasuryTests.release.xcconfig"; sourceTree = "<group>"; };
+		E31013191F3BE87400F559A4 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E3515EDA1F4A39E8008B593B /* CASA Treasury-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CASA Treasury-Bridging-Header.h"; sourceTree = "<group>"; };
+		E3515EDB1F4A39E9008B593B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		E3515EDC1F4A39E9008B593B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E3515EDE1F4A7066008B593B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E3515EE21F4D0554008B593B /* DatePopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePopupViewController.swift; sourceTree = "<group>"; };
+		E3515EE61F4D115D008B593B /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
+		E3515EE81F4D1DF0008B593B /* AccountPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountPickerViewController.swift; sourceTree = "<group>"; };
+		E36787D01F37B8FF005F5540 /* CASA Treasury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CASA Treasury.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36787D31F37B8FF005F5540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E36787DA1F37B8FF005F5540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E36787DD1F37B8FF005F5540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E36787DF1F37B8FF005F5540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36787E41F37B8FF005F5540 /* CASA TreasuryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CASA TreasuryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36787E81F37B8FF005F5540 /* CASA_TreasuryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASA_TreasuryTests.swift; sourceTree = "<group>"; };
+		E36787EA1F37B8FF005F5540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36787EF1F37B8FF005F5540 /* CASA TreasuryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CASA TreasuryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36787F31F37B8FF005F5540 /* CASA_TreasuryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASA_TreasuryUITests.swift; sourceTree = "<group>"; };
+		E36787F51F37B8FF005F5540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36788011F37BB49005F5540 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E36788081F37BFFE005F5540 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E3B1E0451F3FB7C0006312E3 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		E3B1E0461F3FB7C0006312E3 /* AllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		E3B1E0471F3FB7C0006312E3 /* BankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
+		E3B1E0481F3FB7C0006312E3 /* CashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashViewController.swift; sourceTree = "<group>"; };
+		E3B1E0491F3FB7C0006312E3 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E3B1E04A1F3FB7C0006312E3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E3B1E04B1F3FB7C0006312E3 /* VenmoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenmoViewController.swift; sourceTree = "<group>"; };
+		E3D905BC1F4693610077D1AF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E36787CD1F37B8FF005F5540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F9511D5DEDC77D0579A643 /* Pods_CASA_Treasury.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36787E11F37B8FF005F5540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA7B40A3070B6E1D9C19A5B /* Pods_CASA_TreasuryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36787EC1F37B8FF005F5540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B566373F5304212675AEC60 /* Pods_CASA_TreasuryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CB7E335031F26B79139760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				817577EF3E85F02C1C880A92 /* Pods-CASA Treasury.debug.xcconfig */,
+				30A7C8EEF328C5CD24A0543F /* Pods-CASA Treasury.release.xcconfig */,
+				0EA669A18FFA2B8280AFF505 /* Pods-CASA TreasuryTests.debug.xcconfig */,
+				C94E69F6FF0D0A9D1A98EB78 /* Pods-CASA TreasuryTests.release.xcconfig */,
+				39C513E7CD74327F9D939544 /* Pods-CASA TreasuryUITests.debug.xcconfig */,
+				7ADE8E63D4F460271AC4F934 /* Pods-CASA TreasuryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E31013121F3BCA1E00F559A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E31013191F3BE87400F559A4 /* Service.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E3515EEA1F4D1DFC008B593B /* Reveal Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3515EDB1F4A39E9008B593B /* SWRevealViewController.h */,
+				E3515EDC1F4A39E9008B593B /* SWRevealViewController.m */,
+				E3515EDA1F4A39E8008B593B /* CASA Treasury-Bridging-Header.h */,
+			);
+			name = "Reveal Controllers";
+			sourceTree = "<group>";
+		};
+		E36787C71F37B8FF005F5540 = {
+			isa = PBXGroup;
+			children = (
+				E36787D21F37B8FF005F5540 /* CASA Treasury */,
+				E36787E71F37B8FF005F5540 /* CASA TreasuryTests */,
+				E36787F21F37B8FF005F5540 /* CASA TreasuryUITests */,
+				E36787D11F37B8FF005F5540 /* Products */,
+				47CB7E335031F26B79139760 /* Pods */,
+				EC5DA3CE26EDACB0BE7B5B45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E36787D11F37B8FF005F5540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E36787D01F37B8FF005F5540 /* CASA Treasury.app */,
+				E36787E41F37B8FF005F5540 /* CASA TreasuryTests.xctest */,
+				E36787EF1F37B8FF005F5540 /* CASA TreasuryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E36787D21F37B8FF005F5540 /* CASA Treasury */ = {
+			isa = PBXGroup;
+			children = (
+				E3B1E0551F3FBA41006312E3 /* Controllers */,
+				E31013121F3BCA1E00F559A4 /* Model */,
+				E36788081F37BFFE005F5540 /* Main.storyboard */,
+				E36787D31F37B8FF005F5540 /* AppDelegate.swift */,
+				E36787DA1F37B8FF005F5540 /* Assets.xcassets */,
+				E36787DC1F37B8FF005F5540 /* LaunchScreen.storyboard */,
+				E36788011F37BB49005F5540 /* GoogleService-Info.plist */,
+				E36787DF1F37B8FF005F5540 /* Info.plist */,
+				E3B1E0581F3FBB30006312E3 /* Views */,
+			);
+			path = "CASA Treasury";
+			sourceTree = "<group>";
+		};
+		E36787E71F37B8FF005F5540 /* CASA TreasuryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E36787E81F37B8FF005F5540 /* CASA_TreasuryTests.swift */,
+				E36787EA1F37B8FF005F5540 /* Info.plist */,
+			);
+			path = "CASA TreasuryTests";
+			sourceTree = "<group>";
+		};
+		E36787F21F37B8FF005F5540 /* CASA TreasuryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E36787F31F37B8FF005F5540 /* CASA_TreasuryUITests.swift */,
+				E36787F51F37B8FF005F5540 /* Info.plist */,
+			);
+			path = "CASA TreasuryUITests";
+			sourceTree = "<group>";
+		};
+		E3B1E0551F3FBA41006312E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3515EEA1F4D1DFC008B593B /* Reveal Controllers */,
+				E3B1E0451F3FB7C0006312E3 /* AddViewController.swift */,
+				E3515EE21F4D0554008B593B /* DatePopupViewController.swift */,
+				E3515EE81F4D1DF0008B593B /* AccountPickerViewController.swift */,
+				E3515EE61F4D115D008B593B /* CategoryPickerViewController.swift */,
+				E3B1E0461F3FB7C0006312E3 /* AllViewController.swift */,
+				E3B1E0471F3FB7C0006312E3 /* BankViewController.swift */,
+				E3B1E0481F3FB7C0006312E3 /* CashViewController.swift */,
+				E3B1E04B1F3FB7C0006312E3 /* VenmoViewController.swift */,
+				E3B1E0491F3FB7C0006312E3 /* MasterViewController.swift */,
+				E3D905BC1F4693610077D1AF /* DetailViewController.swift */,
+				E3515EDE1F4A7066008B593B /* CameraViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E3B1E0581F3FBB30006312E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3B1E04A1F3FB7C0006312E3 /* TableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EC5DA3CE26EDACB0BE7B5B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC5CF48381ED148D54ED666 /* Pods_CASA_Treasury.framework */,
+				2C13D704482043BDCCD7593C /* Pods_CASA_TreasuryTests.framework */,
+				4C8E95E2257D43F443C5502C /* Pods_CASA_TreasuryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E36787CF1F37B8FF005F5540 /* CASA Treasury */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36787F81F37B8FF005F5540 /* Build configuration list for PBXNativeTarget "CASA Treasury" */;
+			buildPhases = (
+				8E5C3E846CD61CC1066D1FC9 /* [CP] Check Pods Manifest.lock */,
+				E36787CC1F37B8FF005F5540 /* Sources */,
+				E36787CD1F37B8FF005F5540 /* Frameworks */,
+				E36787CE1F37B8FF005F5540 /* Resources */,
+				83B59432F232EB98A3A75E35 /* [CP] Embed Pods Frameworks */,
+				7485FD1280AB802D60BBF1C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CASA Treasury";
+			productName = "CASA Treasury";
+			productReference = E36787D01F37B8FF005F5540 /* CASA Treasury.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E36787E31F37B8FF005F5540 /* CASA TreasuryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36787FB1F37B8FF005F5540 /* Build configuration list for PBXNativeTarget "CASA TreasuryTests" */;
+			buildPhases = (
+				FFA1FDC2FABB11FF8D9BBA65 /* [CP] Check Pods Manifest.lock */,
+				E36787E01F37B8FF005F5540 /* Sources */,
+				E36787E11F37B8FF005F5540 /* Frameworks */,
+				E36787E21F37B8FF005F5540 /* Resources */,
+				734A7D8A1A04001D422E72D2 /* [CP] Embed Pods Frameworks */,
+				DF4E51580946BFDCD57E2768 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E36787E61F37B8FF005F5540 /* PBXTargetDependency */,
+			);
+			name = "CASA TreasuryTests";
+			productName = "CASA TreasuryTests";
+			productReference = E36787E41F37B8FF005F5540 /* CASA TreasuryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E36787EE1F37B8FF005F5540 /* CASA TreasuryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36787FE1F37B8FF005F5540 /* Build configuration list for PBXNativeTarget "CASA TreasuryUITests" */;
+			buildPhases = (
+				5065282B730C257A5BC445AE /* [CP] Check Pods Manifest.lock */,
+				E36787EB1F37B8FF005F5540 /* Sources */,
+				E36787EC1F37B8FF005F5540 /* Frameworks */,
+				E36787ED1F37B8FF005F5540 /* Resources */,
+				C2B0DCCC09E32586BD7934FF /* [CP] Embed Pods Frameworks */,
+				466AC7BD50163B37927CCB20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E36787F11F37B8FF005F5540 /* PBXTargetDependency */,
+			);
+			name = "CASA TreasuryUITests";
+			productName = "CASA TreasuryUITests";
+			productReference = E36787EF1F37B8FF005F5540 /* CASA TreasuryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E36787C81F37B8FF005F5540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Donovan Cheung";
+				TargetAttributes = {
+					E36787CF1F37B8FF005F5540 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					E36787E31F37B8FF005F5540 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E36787CF1F37B8FF005F5540;
+					};
+					E36787EE1F37B8FF005F5540 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E36787CF1F37B8FF005F5540;
+					};
+				};
+			};
+			buildConfigurationList = E36787CB1F37B8FF005F5540 /* Build configuration list for PBXProject "CASA Treasury" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E36787C71F37B8FF005F5540;
+			productRefGroup = E36787D11F37B8FF005F5540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E36787CF1F37B8FF005F5540 /* CASA Treasury */,
+				E36787E31F37B8FF005F5540 /* CASA TreasuryTests */,
+				E36787EE1F37B8FF005F5540 /* CASA TreasuryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E36787CE1F37B8FF005F5540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36787DE1F37B8FF005F5540 /* LaunchScreen.storyboard in Resources */,
+				E36788021F37BB49005F5540 /* GoogleService-Info.plist in Resources */,
+				E36787DB1F37B8FF005F5540 /* Assets.xcassets in Resources */,
+				E36788091F37BFFE005F5540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36787E21F37B8FF005F5540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36787ED1F37B8FF005F5540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		466AC7BD50163B37927CCB20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CASA TreasuryUITests/Pods-CASA TreasuryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5065282B730C257A5BC445AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CASA TreasuryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		734A7D8A1A04001D422E72D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CASA TreasuryTests/Pods-CASA TreasuryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7485FD1280AB802D60BBF1C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CASA Treasury/Pods-CASA Treasury-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B59432F232EB98A3A75E35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CASA Treasury/Pods-CASA Treasury-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CASA Treasury/Pods-CASA Treasury-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5C3E846CD61CC1066D1FC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CASA Treasury-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B0DCCC09E32586BD7934FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CASA TreasuryUITests/Pods-CASA TreasuryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4E51580946BFDCD57E2768 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CASA TreasuryTests/Pods-CASA TreasuryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA1FDC2FABB11FF8D9BBA65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CASA TreasuryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E36787CC1F37B8FF005F5540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E310131A1F3BE87400F559A4 /* Service.swift in Sources */,
+				E3B1E0511F3FB7C0006312E3 /* TableViewCell.swift in Sources */,
+				E3515EE31F4D0554008B593B /* DatePopupViewController.swift in Sources */,
+				E3515EE71F4D115D008B593B /* CategoryPickerViewController.swift in Sources */,
+				E3515EE91F4D1DF0008B593B /* AccountPickerViewController.swift in Sources */,
+				E3B1E04F1F3FB7C0006312E3 /* CashViewController.swift in Sources */,
+				E36787D41F37B8FF005F5540 /* AppDelegate.swift in Sources */,
+				E3B1E04D1F3FB7C0006312E3 /* AllViewController.swift in Sources */,
+				E3515EDF1F4A7066008B593B /* CameraViewController.swift in Sources */,
+				E3B1E04E1F3FB7C0006312E3 /* BankViewController.swift in Sources */,
+				E3B1E0521F3FB7C0006312E3 /* VenmoViewController.swift in Sources */,
+				E3D905BD1F4693620077D1AF /* DetailViewController.swift in Sources */,
+				E3515EDD1F4A39E9008B593B /* SWRevealViewController.m in Sources */,
+				E3B1E0501F3FB7C0006312E3 /* MasterViewController.swift in Sources */,
+				E3B1E04C1F3FB7C0006312E3 /* AddViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36787E01F37B8FF005F5540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36787E91F37B8FF005F5540 /* CASA_TreasuryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36787EB1F37B8FF005F5540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36787F41F37B8FF005F5540 /* CASA_TreasuryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E36787E61F37B8FF005F5540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36787CF1F37B8FF005F5540 /* CASA Treasury */;
+			targetProxy = E36787E51F37B8FF005F5540 /* PBXContainerItemProxy */;
+		};
+		E36787F11F37B8FF005F5540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36787CF1F37B8FF005F5540 /* CASA Treasury */;
+			targetProxy = E36787F01F37B8FF005F5540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E36787DC1F37B8FF005F5540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36787DD1F37B8FF005F5540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E36787F61F37B8FF005F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E36787F71F37B8FF005F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E36787F91F37B8FF005F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817577EF3E85F02C1C880A92 /* Pods-CASA Treasury.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "CASA Treasury/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donovancheung.CASA-Treasury";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CASA Treasury/CASA Treasury-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E36787FA1F37B8FF005F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A7C8EEF328C5CD24A0543F /* Pods-CASA Treasury.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "CASA Treasury/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donovancheung.CASA-Treasury";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CASA Treasury/CASA Treasury-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E36787FC1F37B8FF005F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA669A18FFA2B8280AFF505 /* Pods-CASA TreasuryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CASA TreasuryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donovancheung.CASA-TreasuryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CASA Treasury.app/CASA Treasury";
+			};
+			name = Debug;
+		};
+		E36787FD1F37B8FF005F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94E69F6FF0D0A9D1A98EB78 /* Pods-CASA TreasuryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CASA TreasuryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donovancheung.CASA-TreasuryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CASA Treasury.app/CASA Treasury";
+			};
+			name = Release;
+		};
+		E36787FF1F37B8FF005F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C513E7CD74327F9D939544 /* Pods-CASA TreasuryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CASA TreasuryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donovancheung.CASA-TreasuryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CASA Treasury";
+			};
+			name = Debug;
+		};
+		E36788001F37B8FF005F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADE8E63D4F460271AC4F934 /* Pods-CASA TreasuryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CASA TreasuryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donovancheung.CASA-TreasuryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CASA Treasury";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E36787CB1F37B8FF005F5540 /* Build configuration list for PBXProject "CASA Treasury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36787F61F37B8FF005F5540 /* Debug */,
+				E36787F71F37B8FF005F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36787F81F37B8FF005F5540 /* Build configuration list for PBXNativeTarget "CASA Treasury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36787F91F37B8FF005F5540 /* Debug */,
+				E36787FA1F37B8FF005F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36787FB1F37B8FF005F5540 /* Build configuration list for PBXNativeTarget "CASA TreasuryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36787FC1F37B8FF005F5540 /* Debug */,
+				E36787FD1F37B8FF005F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36787FE1F37B8FF005F5540 /* Build configuration list for PBXNativeTarget "CASA TreasuryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36787FF1F37B8FF005F5540 /* Debug */,
+				E36788001F37B8FF005F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E36787C81F37B8FF005F5540 /* Project object */;
+}

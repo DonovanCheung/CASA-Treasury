@@ -1,0 +1,6 @@
+framework module Pods_CASA_Treasury {
+  umbrella header "Pods-CASA Treasury-umbrella.h"
+
+  export *
+  module * { export * }
+}
